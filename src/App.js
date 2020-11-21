@@ -7,15 +7,19 @@ import SignIn from "./components/SignIn/SingIn";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./main.css";
 import SideNav from './components/SideNav/SideNav';
+import ContentContainer from './components/Content/ContentContainer';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <NavContainer />
-      <Switch>
-        <Route path="/signIn" render={() => <SignIn />} />
-        <Route path="/" render={() => <SideNav />} />
-      </Switch>
+      <div className="d-flex">
+        <Switch>
+          <Route path="/signIn" render={() => <SignIn />} />
+          <Route path="/" render={() => <SideNav />} />
+        </Switch>
+        <ContentContainer />
+      </div>
     </div>
   );
 }
