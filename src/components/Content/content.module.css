@@ -1,0 +1,53 @@
+.jadval {
+  margin-top: 15px;
+  padding: 15px;
+  width: 640px;
+  height: 330px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.jadval .sana {
+  font-size: 18px;
+  font-weight: 700;
+}
+.jadval .svernut {
+  margin-left: 360px;
+}
+.jadval .ss {
+  color: #828282;
+  text-decoration: none;
+}
+.jadval .d-flex a {
+  color: #515050;
+  text-decoration: none;
+}
+.jadval .d-flex a:hover {
+  color: #5071da;
+}
+.jadval .d-flex .soat {
+  font-size: 12px;
+  padding-top: 3px;
+  color: #828282;
+}
+.jadval .pokazat {
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+  margin-left: 8px;
+}
+.jadval .pokazat:hover {
+  color: #5071da;
+}
+.nastroyka {
+  margin: 30px 0;
+}
+.nastroyka a {
+  color: #000;
+  text-decoration: none;
+}
+.nastroyka a h5 {
+  font-weight: 600;
+}
+.nastroyka a h5 span {
+  border-bottom: 1px dashed;
+}

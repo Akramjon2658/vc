@@ -1,0 +1,142 @@
+body {
+    background-color: #cbc7c7; }
+  
+  .row .col-6 .component-1 {
+    background-color: #FFF5F7;
+    width: 650px;
+    height: 520px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 100px; }
+    .row .col-6 .component-1 .info p {
+      color: #CD8796;
+      font-weight: 500;
+      margin-bottom: 5px; }
+    .row .col-6 .component-1 .info .tema {
+      margin-bottom: 5px; }
+      .row .col-6 .component-1 .info .tema img {
+        border-radius: 2px;
+        margin-right: 10px; }
+      .row .col-6 .component-1 .info .tema .img-info {
+        font-size: 13px;
+        font-weight: 500; }
+    .row .col-6 .component-1 .info a {
+      font-size: 18px;
+      color: #000;
+      font-weight: 600;
+      line-height: 0;
+      text-decoration: none; }
+      .row .col-6 .component-1 .info a:hover {
+        color: #4676ed; }
+    .row .col-6 .component-1 .info .son {
+      font-size: 12px; }
+    .row .col-6 .component-1 .img {
+      margin-top: 45px;
+      margin-left: 50px; }
+  .row .col-6 .component-2 {
+    background-color: #EDF5FD;
+    width: 650px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 100px; }
+    .row .col-6 .component-2 .d-flex {
+      justify-content: space-between; }
+      .row .col-6 .component-2 .d-flex div h6 {
+        color: #4384BE;
+        font-size: 15px; }
+      .row .col-6 .component-2 .d-flex .btn {
+        padding: 0px 7px;
+        border: 1px solid moccasin; }
+    .row .col-6 .component-2 .jirni {
+      font-weight: 600;
+      font-size: 17px; }
+    .row .col-6 .component-2 .aa {
+      font-size: 14px; }
+    .row .col-6 .component-2 img {
+      margin-left: 15px;
+      margin-right: 8px;
+      width: 11px;
+      height: 11px; }
+    .row .col-6 .component-2 .pokazat {
+      padding-left: 0;
+      font-weight: 800; }
+  .row .col-6 .component-3 {
+    background-color: #F2F2F2;
+    width: 650px;
+    height: 450px;
+    padding: 20px;
+    margin-bottom: 100px; }
+    .row .col-6 .component-3 .nav {
+      justify-content: space-between; }
+      .row .col-6 .component-3 .nav .ob {
+        background-color: #FFF5F7;
+        color: #DFAEB9;
+        border-radius: 10px;
+        padding: 0 7px;
+        font-size: 13px; }
+      .row .col-6 .component-3 .nav .otl {
+        color: #656565;
+        font-size: 12px; }
+    .row .col-6 .component-3 .header {
+      background-color: #FFF5F7;
+      justify-content: space-between;
+      padding: 15px 15px 0 15px;
+      margin: 10px 0 25px 0;
+      border-radius: 5px; }
+      .row .col-6 .component-3 .header .telegram {
+        margin-top: -4px; }
+      .row .col-6 .component-3 .header .teleg-info {
+        margin-left: 10px; }
+        .row .col-6 .component-3 .header .teleg-info h5 {
+          font-size: 16px; }
+        .row .col-6 .component-3 .header .teleg-info p {
+          font-size: 13px; }
+      .row .col-6 .component-3 .header .btn {
+        padding: 3px 12px;
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: 8px; }
+    .row .col-6 .component-3 .footer {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px; }
+      .row .col-6 .component-3 .footer .d-flex {
+        justify-content: space-between; }
+        .row .col-6 .component-3 .footer .d-flex .d-flex img {
+          margin-bottom: 10px; }
+        .row .col-6 .component-3 .footer .d-flex .d-flex h6 {
+          margin-left: 8px;
+          margin-right: 10px;
+          margin-bottom: 0;
+          font-size: 14px; }
+        .row .col-6 .component-3 .footer .d-flex .d-flex .svet {
+          font-size: 12px;
+          margin-right: 25px;
+          color: #959191; }
+        .row .col-6 .component-3 .footer .d-flex .btn img {
+          margin-bottom: 10px; }
+  .row .col-6 .component-4 {
+    margin-left: 90px;
+    width: 464px;
+    height: 570px;
+    margin-bottom: 100px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    background-color: #fff; }
+    .row .col-6 .component-4 .d-flex img {
+      margin-bottom: 10px; }
+    .row .col-6 .component-4 .d-flex h6 {
+      margin-left: 8px;
+      margin-right: 10px;
+      margin-bottom: 0;
+      font-size: 14px; }
+    .row .col-6 .component-4 .d-flex .svet {
+      font-size: 12px;
+      margin-right: 25px;
+      color: #959191; }
+    .row .col-6 .component-4 .btn img {
+      margin-bottom: 10px; }
+  
+  /*# sourceMappingURL=main.css.map */
+  
