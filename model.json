@@ -1,0 +1,76 @@
+{
+    "user": [
+        {
+            "userId": 0,
+            "userName": "",
+            "userPhotoUrl": "",
+            "userAbout": "",
+            "favorites": [],
+            "contacts": {
+                "facebook": "",
+                "instagramm": "",
+                "telegram": "",
+                "mail": "",
+                "phone": 0
+            },
+            "subscribers": []
+        }
+    ],
+    "company": [
+        {
+            "companyId": 0,
+            "name": "",
+            "photoUrl": "",
+            "about": "",
+            "favorites": [],
+            "contacts": {
+                "facebook": "",
+                "instagramm": "",
+                "telegram": "",
+                "mail": "",
+                "phone": 0
+            },
+            "subscribers": []
+        }
+    ],
+    "post": [
+        {
+            "id": 0,
+            "title": "",
+            "subtitle": "",
+            "body": "",
+            "createdDate": "",
+            "category": "",
+            "userId": "",
+            "companyId": "",
+            "views": 0,
+            "type": ""
+        }
+    ],
+    "vacancy": [
+        {
+            "name": "",
+            "companyId": "",
+            "userId": "",
+            "city": "",
+            "salaryFrom": 0,
+            "salaryTo": 0,
+            "createdDate": "",
+            "category": "",
+            "views": 0,
+            "type": ""
+        }
+    ],
+    "category": [
+        {
+            "id": 0,
+            "name": ""
+        }
+    ],
+    "vacancyFilter": [
+        {
+            "id": 0,
+            "name": ""
+        }
+    ]
+}

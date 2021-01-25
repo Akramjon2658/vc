@@ -1,21 +1,15 @@
+import { PostAPI } from "../api/api";
+
 const GET_POSTS = "postReducer/GET_POSTS";
 
-const inittalState = {
-    messagePost: [],
-    avatarPost: [],
-    imagePost: []
-}
+const inittalState = [];
 
 const PostsReducer = (state = inittalState, action) => {
-    switch (action.type) {
+    switch (action.item) {
         case GET_POSTS:
-            return {
-                ...state,
-                messagePost: action.messagePost,
-                avatarPost: action.avatarPost,
-                imagePost: action.imagePost,
-            }
-    
+            return [
+                ...action.posts
+        ]
         default: 
         return state
     }
@@ -23,17 +17,18 @@ const PostsReducer = (state = inittalState, action) => {
 export default PostsReducer;
 
 const getPostsAC = (posts) => {
-    let {messagePost, avatarPost, imagePost} = posts
     return {
-        type: GET_POSTS, messagePost, avatarPost, imagePost,
+        item: GET_POSTS, posts
     }
 }
 
-function getPosts(){
+export const getPosts = () => async dispatch => {
     try{
-        // let response = 
+        let response = await PostAPI.getPosts();
+        dispatch(getPostsAC(response))
+        console.log("[alife]",response);
     }
     catch(err){
-        alert(err)
+        console.log(err)
     }
 }

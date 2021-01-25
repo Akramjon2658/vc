@@ -1,7 +1,8 @@
 import React from "react";
 import s from "./content.module.css";
 
-function Content({messagePost, ...props}){
+function Content({posts, ...props}){
+
     return (
     <div className="col-6">
         <div className={s.jadval}>
@@ -14,7 +15,7 @@ function Content({messagePost, ...props}){
             </span>
         </a>
         {
-            messagePost.map(mp => {
+            posts.map(mp => {
                 return <div className="d-flex mt-3">
                 <div className={s.soat}>
                     <p className="mx-2">{mp.createdDate}</p>

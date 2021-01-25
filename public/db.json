@@ -1,0 +1,223 @@
+{
+    "user": [
+        {
+            "userId": 0,
+            "userName": "Amirbek",
+            "userPhotoUrl": "https://unsplash.com/photos/ZHvM3XIOHoE",
+            "userAbout": "This is a person",
+            "favorites": [],
+            "contacts": {
+                "facebook": "https://www.facebook.com/akramjon.abdullayev.73",
+                "instagram": "https://www.instagram.com/akramjon.abdullayev.71/",
+                "telegram": "https://t.me/Akramjon_Abdullayev_01",
+                "mail": "Akramjon_Abdullayev@mail.ru",
+                "phone": "+998998418580"
+            },
+            "subscribers": []
+        },
+        {
+            "userId": 1,
+            "userName": "Akramjon",
+            "userPhotoUrl": "https://unsplash.com/photos/ZHvM3XIOHoE",
+            "userAbout": "This is a person",
+            "favorites": [],
+            "contacts": {
+                "facebook": "https://www.facebook.com/akramjon.abdullayev.73",
+                "instagram": "https://www.instagram.com/akramjon.abdullayev.71/",
+                "telegram": "https://t.me/Akramjon_Abdullayev_01",
+                "mail": "Akramjon_Abdullayev@mail.ru",
+                "phone": "+998998418580"
+            },
+            "subscribers": []
+        },
+        {
+            "userId": 2,
+            "userName": "Sohib",
+            "userPhotoUrl": "https://unsplash.com/photos/ZHvM3XIOHoE",
+            "userAbout": "This is a person",
+            "favorites": [],
+            "contacts": {
+                "facebook": "https://www.facebook.com/akramjon.abdullayev.73",
+                "instagram": "https://www.instagram.com/akramjon.abdullayev.71/",
+                "telegram": "https://t.me/Akramjon_Abdullayev_01",
+                "mail": "Akramjon_Abdullayev@mail.ru",
+                "phone": "+998998418580"
+            },
+            "subscribers": []
+        },
+        {
+            "userId": 3,
+            "userName": "Javohir",
+            "userPhotoUrl": "https://unsplash.com/photos/ZHvM3XIOHoE",
+            "userAbout": "This is a person",
+            "favorites": [],
+            "contacts": {
+                "facebook": "https://www.facebook.com/akramjon.abdullayev.73",
+                "instagram": "https://www.instagram.com/akramjon.abdullayev.71/",
+                "telegram": "https://t.me/Akramjon_Abdullayev_01",
+                "mail": "Akramjon_Abdullayev@mail.ru",
+                "phone": "+998998418580"
+            },
+            "subscribers": []
+        }
+    ],
+    "company": [
+        {
+            "companyId": 0,
+            "name": "Amirbek Company",
+            "photoUrl": "https://unsplash.com/photos/ZHvM3XIOHoE",
+            "about": "This is a person",
+            "favorites": [],
+            "contacts": {
+                "facebook": "https://www.facebook.com/akramjon.abdullayev.73",
+                "instagram": "https://www.instagram.com/akramjon.abdullayev.71/",
+                "telegram": "https://t.me/Akramjon_Abdullayev_01",
+                "mail": "Akramjon_Abdullayev@mail.ru",
+                "phone": "+998998418580"
+            },
+            "subscribers": []
+        },
+        {
+            "companyId": 1,
+            "name": "Akramjon Company",
+            "photoUrl": "https://unsplash.com/photos/ZHvM3XIOHoE",
+            "about": "This is a person",
+            "favorites": [],
+            "contacts": {
+                "facebook": "https://www.facebook.com/akramjon.abdullayev.73",
+                "instagram": "https://www.instagram.com/akramjon.abdullayev.71/",
+                "telegram": "https://t.me/Akramjon_Abdullayev_01",
+                "mail": "Akramjon_Abdullayev@mail.ru",
+                "phone": "+998998418580"
+            },
+            "subscribers": []
+        },
+        {
+            "companyId": 2,
+            "name": "Sohib Company",
+            "photoUrl": "https://unsplash.com/photos/ZHvM3XIOHoE",
+            "about": "This is a person",
+            "favorites": [],
+            "contacts": {
+                "facebook": "https://www.facebook.com/akramjon.abdullayev.73",
+                "instagram": "https://www.instagram.com/akramjon.abdullayev.71/",
+                "telegram": "https://t.me/Akramjon_Abdullayev_01",
+                "mail": "Akramjon_Abdullayev@mail.ru",
+                "phone": "+998998418580"
+            },
+            "subscribers": []
+        },
+        {
+            "companyId": 3,
+            "name": "Javohir Company",
+            "photoUrl": "https://unsplash.com/photos/ZHvM3XIOHoE",
+            "about": "This is a person",
+            "favorites": [],
+            "contacts": {
+                "facebook": "https://www.facebook.com/akramjon.abdullayev.73",
+                "instagram": "https://www.instagram.com/akramjon.abdullayev.71/",
+                "telegram": "https://t.me/Akramjon_Abdullayev_01",
+                "mail": "Akramjon_Abdullayev@mail.ru",
+                "phone": "+998998418580"
+            },
+            "subscribers": []
+        }
+    ],
+    "post": [
+        {
+            "id": 0,
+            "title": "Умер телеведущий и журналист Ларри Кинг",
+            "subtitle": "Ему было 87 лет. В конце декабря его госпитализировали с коронавирусом.",
+            "body": "Кинг в течение 25 лет вел шоу «Ларри Кинг в прямом эфире» на CNN. Он брал интервью у кандидатов в президенты, знаменитостей, спортсменов, кинозвезд и обычных людей.В 2010 году он ушёл на пенсию, после того, как снял более 6 тысяч эпизодов шоу. Но уже в 2012 году вернулся с новым шоу Larry King Now. За свою карьеру он провёл более 50 тысяч интервью с известными людьми, стал лауреатом «Эмми» и других наград.",
+            "createdDate": "2021-01-23T03:24:00",
+            "category": "Media",
+            "userId": "0",
+            "companyId": "",
+            "views": 5,
+            "type": ""
+        },
+        {
+            "id": 1,
+            "title": "Сооснователь «Нетологии» Максим Спиридонов продал свою долю и ушёл из компании из-за разногласий с «Севергрупп»",
+            "subtitle": "По его словам, акционеры «не сошлись во взглядах на развитие бизнеса».",
+            "body": "Сооснователь и глава образовательного холдинга «Нетология-групп» Максим Спиридонов уйдёт с поста, а также выйдет из состава акционеров и совета директоров, пишет «Коммерсантъ» со ссылкой на представителей и акционеров компании. Спиридонов подтвердил свой уход в Facebook.",
+            "createdDate": "2021-01-23T03:24:00",
+            "category": "Services",
+            "userId": "0",
+            "companyId": "",
+            "views": 5,
+            "type": ""
+        },
+        {
+            "id": 1,
+            "title": "Сооснователь «Нетологии» Максим Спиридонов продал свою долю и ушёл из компании из-за разногласий с «Севергрупп»",
+            "subtitle": "По его словам, акционеры «не сошлись во взглядах на развитие бизнеса».",
+            "body": "Сооснователь и глава образовательного холдинга «Нетология-групп» Максим Спиридонов уйдёт с поста, а также выйдет из состава акционеров и совета директоров, пишет «Коммерсантъ» со ссылкой на представителей и акционеров компании. Спиридонов подтвердил свой уход в Facebook.",
+            "createdDate": "2021-01-23T03:24:00",
+            "category": "Services",
+            "userId": "0",
+            "companyId": "",
+            "views": 5,
+            "type": ""
+        },
+        {
+            "id": 1,
+            "title": "Honor представила свой первый смартфон после отделения от Huawei",
+            "subtitle": "Устройство может избежать санкций США и получить возможность установить сервисы Google.",
+            "body": "Honor представила первый флагман после после того, как Huawei продала бренд китайским партнёрам. Смартфон V40 стал первым устройством Honor в качестве новой независимой компании Honor Device, но пока выйдет только в Китае, пишет TJ со ссылкой на российского представителя компании. Смартфон получил 6,72-дюймовый OLED-экран с частотой обновления до 120 Гц, яркостью до 800 нит, и работает на процессоре MediaTek Dimensity 1000+ — до этого компания использовала чипы HiSilicon от Huawei. У V40 основная камера с разрешением 50 МП, сверхширокоугольная на 8 МП и макро-камера на 2 МП. Устройство будет доступно в версии с 8 ГБ оперативной памяти и 128 Гб встроенной по цене от $550 (около 42 тысяч рублей) или с 256 ГБ встроенной по цене в $620 (около 46 тысяч рублей). В феврале его скорее всего выпустят в Европе под брендом View — так происходит с флагманами Honor уже несколько лет подряд, заявили в компании.",
+            "createdDate": "2021-01-24T03:24:00",
+            "category": "Services",
+            "userId": "1",
+            "companyId": "",
+            "views": 5,
+            "type": ""
+        }
+    ],
+    "vacancy": [
+        {
+            "name": "Android Lead Developer",
+            "companyId": "1",
+            "userId": "",
+            "city": "New York",
+            "salaryFrom": 0,
+            "salaryTo": 0,
+            "createdDate": "",
+            "category": "Android",
+            "views": 21,
+            "type": "remote"
+        },
+        {
+            "name": "Зарплата на собеседовании",
+            "companyId": "",
+            "userId": "2",
+            "city": "Moskva",
+            "salaryFrom": 0,
+            "salaryTo": "250 000 ₽",
+            "createdDate": "",
+            "category": "Product Officer",
+            "views": 27,
+            "type": "office"
+        }
+    ],
+    "category": [
+        {
+            "id": 0,
+            "name": "Media"
+        },
+        {
+            "id": 1,
+            "name": "Services"
+        }
+    ],
+    "vacancyFilter": [
+        {
+            "id": 0,
+            "name": "Android"
+        },
+        {
+            "id": 1,
+            "name": "Backend"
+        }
+    ]
+}
+
