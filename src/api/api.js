@@ -1,3 +1,5 @@
+import * as axios from "axios";
+
 export const AuthAPI = {
     getAuthUser(){
         return {
@@ -9,6 +11,9 @@ export const AuthAPI = {
 }
 export const PostAPI = {
     getPosts(){
-        return axios.get("https://jsonplaceholder.typicode.com/posts");
+        return axios.get("http://localhost:3000/db.json").then(db => {
+            // console.log("[alife]", db.data.post)
+            return db.data.post
+        });
     }
 }
