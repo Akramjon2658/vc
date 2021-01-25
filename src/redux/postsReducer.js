@@ -1,9 +1,8 @@
+import { PostAPI } from "../api/api";
 const GET_POSTS = "postReducer/GET_POSTS";
 
 const inittalState = {
-    messagePost: [],
-    avatarPost: [],
-    imagePost: []
+    userId: 0
 }
 
 const PostsReducer = (state = inittalState, action) => {
@@ -23,15 +22,13 @@ const PostsReducer = (state = inittalState, action) => {
 export default PostsReducer;
 
 const getPostsAC = (posts) => {
-    let {messagePost, avatarPost, imagePost} = posts
-    return {
-        type: GET_POSTS, messagePost, avatarPost, imagePost,
-    }
+    return {type: GET_POSTS, posts}
 }
 
-function getPosts(){
+function getPosts = () => async (dispatch) => {
     try{
-        // let response = 
+        let response = await PostAPI.getPosts();
+        dispatch(getPostsAC(response.data))
     }
     catch(err){
         alert(err)

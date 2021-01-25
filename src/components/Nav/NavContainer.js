@@ -3,7 +3,7 @@ import Nav from "./Nav"
 
 function NavContainer(props){
     let [search, setSearch] = useState(null);
-    console.log({search});
+    // console.log({search});
 
     return <Nav search={search} setSearch={setSearch}/>
 }

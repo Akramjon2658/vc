@@ -34,7 +34,7 @@ export const getAuthUserThunk = (formdata) =>  async (dispatch) => {
     try{
         dispatch(setIsLoading(true));
         let response = AuthAPI.getAuthUser(formdata);
-        dispatch(getAuthUserAC(response));
+        dispatch(getAuthUserAC(response.data));
         dispatch(setIsLoading(false));
     }
     catch(err){
